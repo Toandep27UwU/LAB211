@@ -18,5 +18,5 @@
 |J1.S.P0074 |Write a calculator program (from DCPS's project) |100 |
 |J1.S.P0022 |Create a Java console program to manage Candidate |175 |
 
-
-![]()
+## Graph
+![](graph.png)
