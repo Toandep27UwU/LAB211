@@ -65,19 +65,19 @@ public class CandidateManager {
         String email = Validation.checkInputEmail();
         if (Validation.checkIdExist(candidateList, id)) {
             switch (type) {
-                case 1:
+                case 0:
                     int expInYear = Validation.checkInputIntLimit(0, Calendar.getInstance().get(Calendar.YEAR));
                     String proSkill = Validation.checkInputString();
                     Experience experience = new Experience(expInYear, proSkill, id, firstName, lastName, birthDate, address, phone, email, type);
                     candidateList.add(experience);
                     break;
-                case 2:
+                case 1:
                     String graduationDate = Validation.checkInputString();
                     String rank = Validation.checkInputGraduationRank();
                     Fresher fresher = new Fresher(graduationDate, rank, id, firstName, lastName, birthDate, address, phone, email, type);
                     candidateList.add(fresher);
                     break;
-                case 3:
+                case 2:
                     String majors = Validation.checkInputString();
                     int semester = Validation.checkInputIntLimit(1, 20);
                     String universityName = Validation.checkInputString();
@@ -133,4 +133,5 @@ public class CandidateManager {
     }
 
 }
+
 
