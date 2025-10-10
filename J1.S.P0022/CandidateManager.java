@@ -38,6 +38,7 @@ public class CandidateManager {
                     displayAllCandidates(candidateList);
                     break;
                 case 4:
+                    searching(candidateList);
                     break;
                 case 5:
                     System.out.println("Exit....");
@@ -132,3 +133,4 @@ public class CandidateManager {
     }
 
 }
+
