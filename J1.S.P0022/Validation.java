@@ -33,7 +33,6 @@ public class Validation {
     }
 
     public static String checkInputString() {
-        //loop until user input correct
         while (true) {
             String result = in.nextLine().trim();
             if (result.isEmpty()) {
@@ -106,6 +105,5 @@ public class Validation {
         }
         return true;
     }
-
-    
 }
+
