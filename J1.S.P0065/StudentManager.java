@@ -50,7 +50,6 @@ public class StudentManager {
             }
         }
         
-        // Calculate percentage
         int total = students.size();
         percentMap.put("A", (countA * 100.0) / total);
         percentMap.put("B", (countB * 100.0) / total);
@@ -99,3 +98,4 @@ public class StudentManager {
         System.out.printf("D: %.2f%%\n", percentMap.get("D"));
     }
 }
+
