@@ -6,8 +6,10 @@
 ![Polymorphism](https://img.shields.io/badge/Polymorphism-green?style=flat)
 ![Encapsulation](https://img.shields.io/badge/Encapsulation-orange?style=flat)
 ![Abstraction](https://img.shields.io/badge/Abstraction-purple?style=flat)
+---
+**Instructor: ThangPD10 - FPT University**
 
-
+---
 ## Progress
 | Exercise | Description | LOC |
 | :-- | :--- | :--- |
